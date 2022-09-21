@@ -2,6 +2,8 @@ import React from 'react';
 // import { InputLabel } from '../components/ui/Inputs/InputLabel'
 // import { TabsComponent } from './../components/commond/Tabs'
 import { CardComponent } from './../components/ui/Cards'
+import { HeaderComponent } from './../components/ui/Header/HeaderComponent';
+
 
 const Login = () => {
   return (
@@ -12,6 +14,8 @@ const Login = () => {
       <div style={{ width: '20%', margin: 'auto', marginTop: '20px' }}>
 
       <CardComponent />
+      <HeaderComponent />
+      
       </div>
     </div>
   )
