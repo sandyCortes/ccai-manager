@@ -1,8 +1,12 @@
 @import 'bulma/css/bulma.min.css';
+@import './../../node_modules/@mdi/font/css/materialdesignicons.css';
+@import './../../node_modules/@mdi/font/css/materialdesignicons.min.css';
+
+
+@import url('./Inputs/input-label.css');
 
 .App {
     text-align: center;
-    background-color: #2B8192;
     height: 100vh;
   }
   
