@@ -3,12 +3,12 @@ import React from 'react';
 export const InputLabel = () => {
   return (
     <div>
-      <label>
+      <label className="float-label">
         <input
-            class="input input-radious"
-            type="text"
+          class="input input-radious"
+          type="text"
         />
-        <span>Nombre</span>
+        <span className="float-span">Nombre</span>
       </label>
       
     </div>

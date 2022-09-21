@@ -3,12 +3,12 @@
   border: 1px solid black;
 }
 
-label{
-    margin-bottom:15px;
-    position:relative;
-    border-bottom:1px solid #ddd;
+.float-label {
+  margin-bottom:15px;
+  position:relative;
+  border-bottom: 1px solid #ddd;
 }
-span{
+.float-span {
     position:absolute;
     top: -10px;
     left: 15px;
@@ -23,7 +23,7 @@ span{
     padding: 1px 18px;
 }
 
-label:focus-within > span,
-input:not(:placeholder-shown) + span{
+.float-label:focus-within > .float-span,
+.input-radious:not(:placeholder-shown) + .float-span {
     transform:translateY(0px);
 }
