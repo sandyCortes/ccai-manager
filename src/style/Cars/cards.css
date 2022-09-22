@@ -1,11 +1,14 @@
-.card-radious {
-    border-radius: 100px;
-    border-top-width: 100px;
-    border-right-width: 10em;
-    border-bottom-width: thick;
-    border-left-width: thin;
-    border: 100px solid black;
-  } 
+.card {
+  margin: auto;
+  border-radius: 1.50em;
+  border: 0.063em solid #000000;
+  width: 100%;
+}
+
+.card-header .card-header-title {
+  text-align: center;
+  display: block;
+} 
 
   
 
