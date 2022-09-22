@@ -3,7 +3,7 @@ import React from 'react';
 // import { TabsComponent } from './../components/commond/Tabs'
 import { CardComponent } from './../components/ui/Cards'
 import { HeaderComponent } from './../components/ui/Header/HeaderComponent';
-
+import { ButtonComponent } from './../components/ui/Buttons/PrimaryButton'
 
 const Login = () => {
   return (
@@ -14,6 +14,7 @@ const Login = () => {
 
       <CardComponent />
       <HeaderComponent />
+      <ButtonComponent buttonText = "Iniciar sesión" />
       
       </div>
     </div>

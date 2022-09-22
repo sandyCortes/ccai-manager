@@ -4,6 +4,7 @@
 
 
 @import url('./Inputs/input-label.css');
+@import url('./Buttons/Buttons-styles.css');
 
 .App {
     text-align: center;
