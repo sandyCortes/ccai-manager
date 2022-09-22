@@ -6,28 +6,25 @@ export const CardComponent = () => {
   return (
     <>
     
-<div class="card">
 
- <card class="card card-radious"/>   
- <header class="card-header">
-    
+ {/* <card class="card"/>   
+ <div class="card-header">    
   
+    
+    
+    
+  </div> */}
+
+    <div class="card">
+    <div class="card-image">
     <p class="card-header-title">
       Registro Alumno 
     </p>
-    
-    
-  </header>
-    <div class="card">
-    <card class="card card-radious"/> 
-    <div class="card-image">
     <figure class="image is-4by3">
         
     </figure>
   </div>
-</div>
-</div> 
-    
+</div>   
       
 
     </>
