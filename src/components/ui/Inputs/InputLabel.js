@@ -1,6 +1,7 @@
 import React from 'react';
 
-export const InputLabel = () => {
+export const InputLabel = (props) => {
+  
   return (
     <div>
       <label className="float-label">
@@ -8,7 +9,7 @@ export const InputLabel = () => {
           class="input input-radious"
           type="text"
         />
-        <span className="float-span">Nombre</span>
+        <span className="float-span">{ props.title }</span>
       </label>
       
     </div>

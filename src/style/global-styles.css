@@ -3,6 +3,7 @@
 @import './../../node_modules/@mdi/font/css/materialdesignicons.min.css';
 
 @import url('./Inputs/input-label.css');
+@import url('./Tabs/tabs-component.css');
 
 .App {
   text-align: center;
