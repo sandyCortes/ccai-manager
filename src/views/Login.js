@@ -10,7 +10,7 @@ const Login = () => {
     <div>
       <div>Hola login..!</div>
 
-      <div style={{ width: '20%', margin: 'auto', marginTop: '20px' }}>
+      <div style={{ width: '50%', margin: 'auto', marginTop: '20px' }}>
 
       <CardComponent />
       <HeaderComponent title ="titulo"/>

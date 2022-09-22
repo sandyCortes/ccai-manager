@@ -1,16 +1,14 @@
 .card {
+  margin: auto;
+  border-radius: 1.50em;
+  border: 0.063em solid #000000;
+  width: 100%;
+}
 
-    margin: auto;
-    border-radius: 1.50em;
-    border: 0.063em solid #000000;
-    
-  } 
-
-.card-header-title {
-
- text-align: center;
-
-  } 
+.card-header .card-header-title {
+  text-align: center;
+  display: block;
+} 
 
   
 
