@@ -1,0 +1,12 @@
+.button-tese {
+  background-color:#2B8192 !important;
+  margin: auto;
+  border: 1px solid #2B8192 !important;
+  color:#ffffff;
+  font-weight: 900;
+  outline:none;
+  
+}
+.button-tese:hover {
+  color: #ffffff !important;
+}

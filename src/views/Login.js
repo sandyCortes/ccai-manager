@@ -5,7 +5,7 @@ import { CardComponent } from '../components/ui/Cards'
 const Login = () => {
   return (
     <div className='container is-widescreen'>
-      <CardComponent></CardComponent>
+      <CardComponent />
     </div>
   )
 }
