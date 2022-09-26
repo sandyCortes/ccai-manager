@@ -6,9 +6,9 @@
 @import url('./Cars//cards.css');
 @import url('./Header/header.css');
 
-.App {
+* {
   text-align: center;
-  height: 100vh;background-color: aqua;
+  height: 100vh;background-color: #2B8192;
 }
   
 .App-logo {
@@ -34,6 +34,11 @@
   
 .App-link {
   color: #61dafb;
+}
+
+.img-not-found {
+  margin: auto;
+  width: 40rem;
 }
   
 @keyframes App-logo-spin {

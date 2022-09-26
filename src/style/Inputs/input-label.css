@@ -1,3 +1,8 @@
+.input:focus {
+  outline: none;
+  border: none;
+}
+
 .input-radious {
   border: 1px solid black;
   font-size: 0.8em;
@@ -27,4 +32,8 @@
 .float-label:focus-within > .float-span,
 .input-radious:not(:placeholder-shown) + .float-span {
     transform:translateY(0px);
+}
+
+.icon-blue {
+  color: #2B8192;
 }
