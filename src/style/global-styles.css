@@ -8,9 +8,9 @@
 @import url('./Header/header.css');
 @import url('./Dialog/dialog.css');
 
-.App {
+body {
   text-align: center;
-  height: 100vh;background-color: aqua;
+  height: 100vh;background-color: #2B8192;
 }
   
 .App-logo {
@@ -36,6 +36,46 @@
   
 .App-link {
   color: #61dafb;
+}
+
+.img-not-found {
+  margin: auto;
+  width: 40rem;
+}
+
+.login-content {
+  width: 25%;
+  padding-top: 5%;
+}
+
+.center-img {
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.inputs-content {
+  width: 70%;
+  margin: 15% auto 3%;
+}
+
+.inputs-content .text-actions {
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.inputs-content .text-actions div a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.buttons-content {
+  width: 60%;
+  margin: 5% auto;
+}
+
+.margin-bottom {
+  margin-bottom: 10% !important;
 }
   
 @keyframes App-logo-spin {

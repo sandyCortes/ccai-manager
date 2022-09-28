@@ -3,12 +3,21 @@
   border-radius: 1.50em;
   border: 0.063em solid #000000;
   width: 100%;
+  min-height: 12.5rem;
+  box-sizing: content-box;
+
 }
 
 .card-header .card-header-title {
   text-align: center;
   display: block;
-} 
+}
+
+.opacity-card {
+  background-color: rgb(255,255,255, 0.3);
+  position: relative;
+  border: 1px solid rgb(255,255,255, 0.3);
+}
 
   
 
