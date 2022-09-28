@@ -4,7 +4,7 @@
 }
 
 .input-radious {
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 0.8em;
   padding: 1.3rem 1rem;
   border-radius: 10px;
@@ -15,6 +15,7 @@
   position:relative;
   border-bottom: 0.063rem solid #ddd;
 }
+
 .float-span {
     position:absolute;
     top: -0.8rem;
@@ -29,11 +30,25 @@
     padding: 0.05rem 1rem;
 }
 
+.input {
+  outline: none;
+  background-color: #ffffff;
+}
+
+.input:hover {
+  border: 2px solid black;
+}
+
+.input:focus {
+  border: 2px solid black;
+}
+
 .float-label:focus-within > .float-span,
 .input-radious:not(:placeholder-shown) + .float-span {
-    transform:translateY(0px);
+  transform:translateY(0px);
 }
 
 .icon-blue {
   color: #2B8192;
+  font-size: 1.5rem;
 }

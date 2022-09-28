@@ -1,12 +1,18 @@
 .button-tese {
   background-color:#2B8192 !important;
-  margin: auto;
   border: 1px solid #2B8192 !important;
   color:#ffffff;
   font-weight: 900;
+  font-size: 1rem;
   outline:none;
-  
+  width: 100%;
+  padding: 5px 0 !important;
 }
+
 .button-tese:hover {
+  color: #ffffff !important;
+}
+
+.button-tese:focus {
   color: #ffffff !important;
 }

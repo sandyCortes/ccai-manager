@@ -1,21 +1,10 @@
 import React from 'react';
 
-
-
-export const CardComponent = () => {
+export const CardComponent = (props) => {
+  const { children, classExtra } = props
   return (
-    <div class="card">
-      <header class="card-header">
-        <p class="card-header-title">
-          Card header
-        </p>
-      </header>
-      <div class="card-content">
-        <div class="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-        </div> 
-      </div>
+    <div class={`card ${classExtra}`}>
+      { children }
     </div>
   )
 }
