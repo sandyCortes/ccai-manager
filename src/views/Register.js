@@ -9,33 +9,33 @@ const Register = () => {
     <div className='container register-content'>
        <HeaderComponent title="Registro"/>
        <CardComponent classExtra="opacity-card margin-top">
-        <div className='title-register'>DATOS PERSONALES</div>
-          <div className = "container-personal ">     
-           <div class="columns">
+        <div className = "container-personal">
+          <div class="columns">
+            <div className='column is-12 title-register'>DATOS PERSONALES</div>
               <div class="column is-3">
                 <InputLabel title="Nombre" />
               </div>
-                <div class="column is-3">
-                 <InputLabel title="Nombre" />
-                </div>
-            <div class="column is-3">
-             <InputLabel title="Nombre" />
-            </div>
-        </div>    
-            <div class="columns">
-            <div class="column is-3">
-             <InputLabel title="Nombre" />
-            </div>
-            <div class="column is-3">
-             <InputLabel title="Nombre" />
-            </div>
-            <div class="column is-3">
-             <InputLabel title="Nombre" />
+              <div class="column is-3">
+                <InputLabel title="Nombre" />
+              </div>
+              <div class="column is-3">
+                <InputLabel title="Nombre" />
+              </div>
+              <div class="column is-3">
+                <InputLabel title="Nombre" />
+              </div>
+              <div class="column is-3">
+                <InputLabel title="Nombre" />
+              </div>
+              <div class="column is-3">
+                <InputLabel title="Nombre" />
+              </div>
+
+            <div className='column is-12 title-register'>
+              DATOS Inst
             </div>
           </div>
         </div>
-        <div className='title-register'>DATOS Inst</div>
-         
       </CardComponent>
      </div>
    )
