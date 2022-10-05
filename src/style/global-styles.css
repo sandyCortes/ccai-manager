@@ -77,29 +77,11 @@ body {
 .margin-bottom {
   margin-bottom: 10% !important;
 }
-
-.register-content{
-  padding-top: 5%;
-} 
-
-.margin-top{
-  margin-top: 2%;
+ 
+.register-content
+{
+  margin-top: 5%;
 }
-
-.container-personal{
-  width: 100%;
-  margin:2%;
-}
-
-.columns {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.title-register{
-  text-align: left;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
