@@ -77,3 +77,7 @@ body {
 .margin-bottom {
   margin-bottom: 3% !important;
 }
+
+.content-title {
+  margin: auto 0;
+}
