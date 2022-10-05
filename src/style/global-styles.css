@@ -85,6 +85,22 @@ body {
 .margin-top{
   margin-top: 2%;
 }
+
+.container-personal {
+  width: 100%;
+  margin:2%;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-register{
+  text-align: left;
+  color: #ffffff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -93,4 +109,3 @@ body {
     transform: rotate(360deg);
   }
 }
-  
