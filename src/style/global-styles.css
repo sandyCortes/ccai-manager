@@ -77,10 +77,13 @@ body {
 .margin-bottom {
   margin-bottom: 10% !important;
 }
- 
-.register-content
-{
-  margin-top: 5%;
+
+.register-content{
+  padding-top: 5%;
+}
+
+.margin-top{
+  margin-top: 2%;
 }
 @keyframes App-logo-spin {
   from {
