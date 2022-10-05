@@ -10,17 +10,19 @@ const Register = () => {
        <HeaderComponent title="Registro"/>
        <CardComponent classExtra="opacity-card margin-top">
         <div className='title-register'>DATOS PERSONALES</div>
-        <div className = "container-personal">     
-         <div class="columns">
+          <div className = "container-personal ">     
+           <div class="columns">
+              <div class="column is-3">
+                <InputLabel title="Nombre" />
+              </div>
+                <div class="column is-3">
+                 <InputLabel title="Nombre" />
+                </div>
             <div class="column is-3">
              <InputLabel title="Nombre" />
             </div>
-            <div class="column is-3">
-             <InputLabel title="Nombre" />
-            </div>
-            <div class="column is-3">
-             <InputLabel title="Nombre" />
-            </div>
+        </div>    
+            <div class="columns">
             <div class="column is-3">
              <InputLabel title="Nombre" />
             </div>
@@ -32,6 +34,7 @@ const Register = () => {
             </div>
           </div>
         </div>
+        <div className='title-register'>DATOS Inst</div>
          
       </CardComponent>
      </div>
