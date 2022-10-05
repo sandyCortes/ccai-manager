@@ -1,42 +1,111 @@
 @import 'bulma/css/bulma.min.css';
+@import './../../node_modules/@mdi/font/css/materialdesignicons.css';
+@import './../../node_modules/@mdi/font/css/materialdesignicons.min.css';
 
-.App {
-    text-align: center;
-    background-color: #2B8192;
-    height: 100vh;
-  }
+@import url('./Inputs/input-label.css');
+@import url('./Buttons/Buttons-styles.css');
+@import url('./Cars//cards.css');
+@import url('./Header/header.css');
+@import url('./Dialog/dialog.css');
+
+body {
+  text-align: center;
+  height: 100vh;background-color: #2B8192;
+}
   
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+  
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
   }
+}
   
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+  
+.App-link {
+  color: #61dafb;
+}
+
+.img-not-found {
+  margin: auto;
+  width: 40rem;
+}
+
+.login-content {
+  width: 25%;
+  padding-top: 5%;
+}
+
+.center-img {
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.inputs-content {
+  width: 70%;
+  margin: 15% auto 3%;
+}
+
+.inputs-content .text-actions {
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.inputs-content .text-actions div a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.buttons-content {
+  width: 60%;
+  margin: 5% auto;
+}
+
+.margin-bottom {
+  margin-bottom: 10% !important;
+}
+
+.register-content{
+  padding-top: 5%;
+}
+
+.margin-top{
+  margin-top: 2%;
+}
+
+.container-personal {
+  width: 100%;
+  margin:2%;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-register{
+  text-align: left;
+  color: #ffffff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+  to {
+    transform: rotate(360deg);
   }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+}
