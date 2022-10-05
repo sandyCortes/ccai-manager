@@ -3,10 +3,10 @@
 @import './../../node_modules/@mdi/font/css/materialdesignicons.min.css';
 
 @import url('./Inputs/input-label.css');
-@import url('./Buttons/Buttons-styles.css');
 @import url('./Cars//cards.css');
 @import url('./Header/header.css');
 @import url('./Dialog/dialog.css');
+@import url('./Buttons/all-buttons.css');
 
 body {
   text-align: center;
@@ -44,8 +44,8 @@ body {
 }
 
 .login-content {
-  width: 25%;
-  padding-top: 5%;
+  width: 30%;
+  margin: auto;
 }
 
 .center-img {
@@ -75,15 +75,5 @@ body {
 }
 
 .margin-bottom {
-  margin-bottom: 10% !important;
+  margin-bottom: 3% !important;
 }
-  
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-  

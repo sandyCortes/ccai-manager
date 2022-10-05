@@ -2,6 +2,7 @@ import React from 'react';
 
 export const InputLabel = (props) => {
   const { title, iconName, typeInput, isPassword } = props
+  
   return (
     <div className="field">
       <p className="control has-icons-right">
