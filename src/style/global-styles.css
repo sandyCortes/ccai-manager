@@ -8,9 +8,13 @@
 @import url('./Dialog/dialog.css');
 @import url('./Buttons/all-buttons.css');
 
+
+
 body {
   text-align: center;
-  height: 100vh;background-color: #2B8192;
+  height: 100vh;
+  background-color: #EBECF0;
+  font-family: Poppins;
 }
   
 .App-logo {
@@ -65,8 +69,8 @@ body {
 
 .inputs-content .text-actions div a {
   text-decoration: none;
-  color: #ffffff;
-  font-weight: 100;
+  color: #717273;
+  font-weight: 400;
 }
 
 .buttons-content {
