@@ -3,14 +3,18 @@
 @import './../../node_modules/@mdi/font/css/materialdesignicons.min.css';
 
 @import url('./Inputs/input-label.css');
-@import url('./Buttons/Buttons-styles.css');
 @import url('./Cars//cards.css');
 @import url('./Header/header.css');
 @import url('./Dialog/dialog.css');
+@import url('./Buttons/all-buttons.css');
+
+
 
 body {
   text-align: center;
-  height: 100vh;background-color: #2B8192;
+  height: 100vh;
+  background-color: #EBECF0;
+  font-family: Poppins;
 }
   
 .App-logo {
@@ -44,8 +48,8 @@ body {
 }
 
 .login-content {
-  width: 25%;
-  padding-top: 5%;
+  width: 30%;
+  margin: auto;
 }
 
 .center-img {
@@ -65,8 +69,8 @@ body {
 
 .inputs-content .text-actions div a {
   text-decoration: none;
-  color: #ffffff;
-  font-weight: 100;
+  color: #717273;
+  font-weight: 400;
 }
 
 .buttons-content {
@@ -75,7 +79,7 @@ body {
 }
 
 .margin-bottom {
-  margin-bottom: 10% !important;
+  margin-bottom: 3% !important;
 }
 
 .register-content{

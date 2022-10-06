@@ -19,6 +19,14 @@
   border: 1px solid rgb(255,255,255, 0.3);
 }
 
+.cart-title {
+  text-transform: uppercase;
+  min-height: auto;
+  width: 50%;
+  margin: auto;
+  font-weight: 900;
+}
+
   
 
   

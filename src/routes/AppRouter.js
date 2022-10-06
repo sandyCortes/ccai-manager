@@ -17,7 +17,7 @@ export const AppRouter = () => {
           element={<Home />}
         />
         <Route
-          path="register"
+          path="*"
           element={<Register />}
         />
         {/* 👇️ only match this when no other routes match */}

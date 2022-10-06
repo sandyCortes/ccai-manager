@@ -1,23 +1,27 @@
 import React from 'react';
-import logo from './../logo.svg';
+import ButtonDecorative from './../components/ui/Buttons/ButtonDecorative'
 
 const Home = () => {
   return (
-    <div>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='section'>
+      <div className='columns'>
+        <div class="column is-6 content-title">
+          <div class="card cart-title">
+            Centro de Cooperación Academica Industria
+          </div>
+          <div class="card cart-title">
+            CCAI
+          </div>
+        </div>
+        <div class="column is-6">
+          <div className='columns is-6'>
+            <ButtonDecorative />
+          </div>
+          <div className='columns is-6'>
+            <ButtonDecorative />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
