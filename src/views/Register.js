@@ -9,33 +9,37 @@ const Register = () => {
         <div style={{ width: '80%', margin: 'auto' }}>
           <HeaderComponent title="Registro"/>
         </div>
-       <CardComponent classExtra="opacity-card margin-top">
-        <div className='title-register'>DATOS PERSONALES</div>
-          <div className = "container-personal ">     
-           <div className="columns">
-              <div className="column is-3">
-                <InputLabel title="Nombre" />
-              </div>
+       <CardComponent classExtra="margin-top">
+          <div style={{ margin: '2%' }}>
+            <div className='title-register'>DATOS PERSONALES</div>
+          </div>
+              <div className = "container-personal ">     
+                <div className="columns">
+                  <div className="column is-3">
+                    <InputLabel title="Nombre" />
+                  </div>
+                    <div className="column is-3">
+                      <InputLabel title="Apellido paterno" />
+                    </div>
+                      <div className="column is-3">
+                        <InputLabel title="Apellido materno" />
+                      </div>
+            </div>    
+             <div className="columns">
                 <div className="column is-3">
-                 <InputLabel title="Apellido paterno" />
-                </div>
-            <div className="column is-3">
-             <InputLabel title="Apellido materno" />
-            </div>
-        </div>    
-            <div className="columns">
-              <div className="column is-3">
-                <InputLabel title="Dirección" />
-              </div>
-                <div className="column is-3">
-                  <InputLabel title="Telefono" />
+                  <InputLabel title="Dirección" />
                 </div>
                   <div className="column is-3">
-                    <InputLabel title="Sexo" />
+                    <InputLabel title="Telefono" />
                   </div>
-          </div>
+                    <div className="column is-3">
+                     <InputLabel title="Sexo" />
+                    </div>
+              </div>
         </div>
-        <div className='title-register'>DATOS INSTITUCIONALES</div>
+        <div style={{ margin: '2%' }}>
+          <div className='title-register'>DATOS INSTITUCIONALES</div>
+        </div>
         <div className = 'container-personal'>     
            <div className="columns">
               <div className="column is-3">

@@ -1,14 +1,22 @@
 import React from 'react';
+import { useNavigate  } from 'react-router-dom'
+
 import { InputLabel } from '../components/ui/Inputs/InputLabel'
 import { ButtonComponent } from '../components/ui/Buttons/PrimaryButton'
 import { CardComponent } from '../components/ui/Cards/CardComponent'
 
 const Login = () => {
+  const navigate = useNavigate()
+
+  const goToLink = (uri) => {
+    navigate(uri)
+  }
+
   return (
-    <div className='container login-content'>
+    <div className='section login-content'>
       <CardComponent classExtra="opacity-card">
-        <figure class="image is-96x96 center-img">
-          <img src={require("./../assets/logo.png" )}/>
+        <figure className="image is-96x96 center-img">
+          <img src={require("./../assets/logo.png" )} alt="" />
         </figure>
 
         <div className='center-img inputs-content'>
@@ -24,17 +32,23 @@ const Login = () => {
 
           <div className='text-actions'>
             <div>
-              <a>¿Haz olvidado tu contraseña?</a>
+              <a href='/'>¿Haz olvidado tu contraseña?</a>
             </div>
             <div>
-              <a>Fechas de servicio y residencias</a>
+              <a href='/'>Fechas de servicio y residencias</a>
             </div>
           </div>       
         </div>
 
         <div className="buttons-content">
-          <ButtonComponent classExtra="margin-bottom" buttonText="Iniciar sesión" />
-          <ButtonComponent buttonText="Registrarse" />
+          <ButtonComponent
+            buttonText="Iniciar sesión"
+            hdlOnClickEvent={() => goToLink('/home')}
+          />
+          <ButtonComponent
+            buttonText="Registrarse"
+            hdlOnClickEvent={() => goToLink('/register')}
+          />
         </div>
 
       </CardComponent>
