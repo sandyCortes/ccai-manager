@@ -118,6 +118,7 @@ body {
 .container-personal {
   width: 100%;
   margin:2%;
+  color: #000000;
 }
 
 .columns {
@@ -127,7 +128,7 @@ body {
 
 .title-register{
   text-align: left;
-  color: #ffffff;
+  color: #000000;
   font-weight: 700;
   font-size: 1.3rem;
 }

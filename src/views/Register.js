@@ -6,9 +6,7 @@ import { HeaderComponent } from './../components/ui/Header/HeaderComponent'
 const Register = () => {
    return (
     <div className='container register-content'>
-        <div style={{ width: '80%', margin: 'auto' }}>
           <HeaderComponent title="Registro"/>
-        </div>
        <CardComponent classExtra="margin-top">
           <div style={{ margin: '2%' }}>
             <div className='title-register'>DATOS PERSONALES</div>
