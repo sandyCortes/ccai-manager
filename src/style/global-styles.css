@@ -37,9 +37,9 @@
 
 body {
   text-align: center;
-  height: 100vh;
   background-color: #EBECF0;
   font-family: 'Poppins';
+  height: 100%;
 }
   
 .App-logo {

@@ -9,7 +9,7 @@ const Register = () => {
         <div style={{ width: '80%', margin: 'auto' }}>
           <HeaderComponent title="Registro"/>
         </div>
-       <CardComponent classExtra="opacity-card margin-top">
+       <CardComponent classExtra="margin-top">
           <div style={{ margin: '2%' }}>
             <div className='title-register'>DATOS PERSONALES</div>
           </div>
