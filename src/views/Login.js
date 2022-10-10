@@ -8,8 +8,8 @@ import { CardComponent } from '../components/ui/Cards/CardComponent'
 const Login = () => {
   const navigate = useNavigate()
 
-  const goToLink = () => {
-    navigate('/home')
+  const goToLink = (uri) => {
+    navigate(uri)
   }
 
   return (
@@ -43,11 +43,11 @@ const Login = () => {
         <div className="buttons-content">
           <ButtonComponent
             buttonText="Iniciar sesión"
-            hdlOnClickEvent={goToLink}
+            hdlOnClickEvent={() => goToLink('/home')}
           />
           <ButtonComponent
             buttonText="Registrarse"
-            hdlOnClickEvent={() => {}}
+            hdlOnClickEvent={() => goToLink('/register')}
           />
         </div>
 
