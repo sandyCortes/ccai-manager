@@ -1,7 +1,7 @@
 import React from 'react';
 import { CardComponent } from './../components/ui/Cards/CardComponent'
 import { InputLabel } from './../components/ui/Inputs/InputLabel'
-import { HeaderComponent } from './../components/ui/Header/HeaderComponent' 
+import { HeaderComponent } from './../components/ui/Header/HeaderComponent'
 
 const Register = () => {
    return (
