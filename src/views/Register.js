@@ -59,6 +59,17 @@ const Register = () => {
                 </div>
           </div>
         </div>
+        <div className="buttons has-addons is-right">
+          <p className="control has-icon-right">
+            <button className="button">
+              <span className="icon is-medium">
+                <span className="icon is-right">
+                  <i className="mdi mdi-plus-circle-outline icon-blue"></i>
+                </span>  
+              </span>
+            </button>
+          </p>
+        </div>
       </CardComponent>
      </div>
    )
