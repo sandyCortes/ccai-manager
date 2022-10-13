@@ -4,7 +4,7 @@ import ButtonDecorative from './../components/ui/Buttons/ButtonDecorative'
 const Home = () => {
   return (
     <div className='section'>
-      <div className='columns'>
+      <div className='columns' style={{ height: '70vh' }}>
         <div class="column is-6 content-title">
           <div class="card cart-title">
             Centro de Cooperación Academica Industria
