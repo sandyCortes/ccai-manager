@@ -6,24 +6,24 @@ import { HeaderComponent } from './../components/ui/Header/HeaderComponent'
 const Register = () => {
    return (
     <div className='container register-content'>
-          <HeaderComponent title="Registro"/>
-       <CardComponent classExtra="margin-top">
+      <HeaderComponent title="Registro"/>
+        <CardComponent classExtra="margin-top opacity-card">
           <div style={{ margin: '2%' }}>
             <div className='title-register'>DATOS PERSONALES</div>
           </div>
-              <div className = "container-personal ">     
-                <div className="columns">
+            <div className = "container-personal ">     
+              <div className="columns">
+                <div className="column is-3">
+                  <InputLabel title="Nombre" />
+                </div>
                   <div className="column is-3">
-                    <InputLabel title="Nombre" />
+                    <InputLabel title="Apellido paterno" />
                   </div>
                     <div className="column is-3">
-                      <InputLabel title="Apellido paterno" />
+                      <InputLabel title="Apellido materno" />
                     </div>
-                      <div className="column is-3">
-                        <InputLabel title="Apellido materno" />
-                      </div>
-            </div>    
-             <div className="columns">
+              </div>    
+              <div className="columns">
                 <div className="column is-3">
                   <InputLabel title="Dirección" />
                 </div>
@@ -34,22 +34,22 @@ const Register = () => {
                      <InputLabel title="Sexo" />
                     </div>
               </div>
-        </div>
-        <div style={{ margin: '2%' }}>
-          <div className='title-register'>DATOS INSTITUCIONALES</div>
-        </div>
-        <div className = 'container-personal'>     
-           <div className="columns">
+            </div>
+          <div style={{ margin: '2%' }}>
+            <div className='title-register'>DATOS INSTITUCIONALES</div>
+          </div>
+            <div className = 'container-personal'>     
+              <div className="columns">
+            <div className="column is-3">
+              <InputLabel title="Matricula" />
+            </div>
               <div className="column is-3">
-                <InputLabel title="Matricula" />
+                <InputLabel title="Carrera" />
               </div>
-                <div className="column is-3">
-                 <InputLabel title="Carrera" />
-                </div>
             <div className="column is-3">
              <InputLabel title="Servicio a prestar" />
             </div>
-        </div>    
+          </div>    
             <div className="columns">
               <div className="column is-3">
                 <InputLabel title="Correo institucional" />
@@ -57,21 +57,19 @@ const Register = () => {
                 <div className="column is-3">
                   <InputLabel title="Contraseña" />
                 </div>
-          </div>
-        </div>
-        <div className="buttons has-addons is-right">
-          <p className="control has-icon-right">
-            <button className="button">
-              <span className="icon is-medium">
-                <span className="icon is-right">
-                  <i className="mdi mdi-plus-circle-outline icon-blue"></i>
-                </span>  
-              </span>
-            </button>
-          </p>
+                <div className="column is-3">
+                  <p className="control has-icon-right">
+                    <button className="button button-register">
+                      <span className="icon is-right">
+                        <i className="mdi mdi-plus-circle-outline"></i>
+                      </span>  
+                    </button>
+                  </p>
+                </div>
+            </div>
         </div>
       </CardComponent>
-     </div>
+    </div>
    )
 }
 
