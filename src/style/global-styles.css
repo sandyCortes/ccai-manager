@@ -7,6 +7,8 @@
 @import url('./Header/header.css');
 @import url('./Dialog/dialog.css');
 @import url('./Buttons/all-buttons.css');
+@import url('./Material/Material.css');
+
 
 @font-face {
   font-family: 'Poppins';

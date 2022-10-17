@@ -1,5 +1,7 @@
 import React from 'react';
 import ButtonDecorative from './../components/ui/Buttons/ButtonDecorative'
+import MaterialButton from './../components/ui/Material/MaterialButton';
+
 
 const Home = () => {
   return (
@@ -20,9 +22,13 @@ const Home = () => {
           <div className='columns is-6'>
             <ButtonDecorative />
           </div>
+          <div>
+            <MaterialButton/>
+          </div>
         </div>
-      </div>
+      </div>       
     </div>
+    
   )
 }
 

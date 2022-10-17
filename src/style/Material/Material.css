@@ -1,0 +1,22 @@
+  .button-material{   
+    background-color: #ffffff;
+    border-radius: 1.5em; 
+    border: 1px solid #000000;  
+    font-size: 1     em; 
+    outline: none; 
+  }
+
+  .button-material:hover {
+    background-color: #ffffff;
+  }
+
+  .button-material:focus{
+    background-color: #ffffff;
+    border-radius: 1.5em; 
+    border: 1px solid #000000;  
+    font-size: 1em; 
+    outline: none; 
+  }
+  
+ 
+  
