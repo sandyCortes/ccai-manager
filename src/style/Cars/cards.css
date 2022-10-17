@@ -1,10 +1,10 @@
 .card {
-  margin: auto;
   border-radius: 1.50em;
   border: 0.063em solid #ffffff;
   width: 100%;
   min-height: 12.5rem;
-  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
 }
 
 .card-header .card-header-title {
@@ -19,11 +19,17 @@
 }
 
 .cart-title {
+  background-color: #ffffff;
+  border-radius: 50px;
+  font-size: 1.6rem;
   text-transform: uppercase;
-  min-height: auto;
-  width: 50%;
+  border: 1px solid #000000;
+  padding: 0.5rem;
+  font-weight: bold;
+  width: fit-content;
   margin: auto;
-  font-weight: 900;
+  margin-top: 10px;
+  padding: 10px 30px;
 }
 
   
