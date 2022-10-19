@@ -6,7 +6,10 @@ const SuccesfullRegister = () => {
     return (
         <div>
             <CardComponent classExtra='opacity-card'>
-                
+                <div>
+                    <p className="title-register">!REGISTRO EXITOSO¡</p>
+                    
+                </div>
             </CardComponent>
         </div>
     )
