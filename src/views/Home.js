@@ -1,5 +1,6 @@
 import React from 'react';
-import ButtonDecorative from './../components/ui/Buttons/ButtonDecorative';
+import ButtonDecorative from './../components/ui/Buttons/ButtonDecorative'
+import TableComponent from './../components/ui/Table/TableComponent'; 
 
 
 const Home = () => {
@@ -37,6 +38,9 @@ const Home = () => {
             <div className='column is-6'>
               <ButtonDecorative />
             </div>
+          </div>
+          <div>
+            <TableComponent/>
           </div>
         </div>
       </div>       

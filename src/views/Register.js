@@ -61,7 +61,7 @@ const Register = () => {
             </p>
           </div>
         </div>
-      </CardComponent>
+       </CardComponent>      
     </div>
    )
 }
