@@ -137,6 +137,21 @@ html {
   font-size: 1.3rem;
 }
 
+.title-sucessfull {
+  text-align: center;
+  color:#c12529;
+  font-weight: 900;
+  font-size: 2.0rem;
+  margin-top: 2.5%;
+  text-shadow: black -0.5px -0.5px 0.2em;
+}
+
+.body-sucessfull {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
