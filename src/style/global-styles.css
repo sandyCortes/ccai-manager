@@ -39,10 +39,7 @@ body {
   text-align: center;
   background-color: #EBECF0;
   font-family: 'Poppins';
-}
-
-html {
-  background-color: #EBECF0;
+  height: 100%;
 }
   
 .App-logo {
@@ -72,13 +69,12 @@ html {
 
 .img-not-found {
   margin: auto;
-  width: 35rem;
+  width: 40rem;
 }
 
 .login-content {
-  width: 35%;
+  width: 30%;
   margin: auto;
-  margin-top: 2%;
 }
 
 .center-img {
@@ -122,7 +118,6 @@ html {
 .container-personal {
   width: 100%;
   margin:2%;
-  color: #000000;
 }
 
 .columns {
@@ -130,17 +125,18 @@ html {
   flex-wrap: wrap;
 }
 
-.title-register {
+.title-register{
   text-align: left;
   color: #000000;
   font-weight: 700;
   font-size: 1.3rem;
 }
 
-@media (min-width: 1350px) {
-  .login-content {
-    width: 30%;
-    margin: auto;
-    margin-top: 8%;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
