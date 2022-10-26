@@ -1,9 +1,19 @@
 import React from 'react';
+import { useNavigate  } from 'react-router-dom'
+
 import { CardComponent } from './../components/ui/Cards/CardComponent'
 import { InputLabel } from './../components/ui/Inputs/InputLabel'
 import { HeaderComponent } from './../components/ui/Header/HeaderComponent'
+import { ButtonComponent } from './../components/ui/Buttons/PrimaryButton'
+
 
 const Register = () => {
+  const navigate = useNavigate()
+
+  const goToLink = (uri) => {
+    navigate(uri)
+  } 
+
    return (
     <div className='container register-content'>
       <HeaderComponent title="Registro"/>
@@ -57,8 +67,15 @@ const Register = () => {
                   <i className="mdi mdi-plus-circle-outline"></i>
                 </span>  
               </button>
-            </p>
+            </p>  
           </div>
+        </div>
+
+        <div className="buttons-content">
+          <ButtonComponent
+            buttonText="Registrarse"
+            hdlOnClickEvent={() => goToLink('/SuccesfullRegister')}
+          />
         </div>
       </CardComponent>
     </div>
