@@ -62,20 +62,16 @@ const Register = () => {
           </div>
           <div className="column is-4">
             <p className="control has-icon-right">
-              <button className="button button-register">
+              <button
+                className="button button-register"
+                onClick={() => goToLink('/SuccesfullRegister')}
+              >
                 <span className="icon is-right">
                   <i className="mdi mdi-plus-circle-outline"></i>
                 </span>  
               </button>
             </p>  
           </div>
-        </div>
-
-        <div className="buttons-content">
-          <ButtonComponent
-            buttonText="Registrarse"
-            hdlOnClickEvent={() => goToLink('/SuccesfullRegister')}
-          />
         </div>
       </CardComponent>
     </div>
