@@ -43,6 +43,10 @@ body {
 html {
   background-color: #EBECF0;
 }
+
+html {
+  background-color: #EBECF0;
+}
   
 .App-logo {
   height: 40vmin;
@@ -118,6 +122,20 @@ html {
   color: #000000;
   font-weight: 700;
   font-size: 1.3rem;
+}
+
+.title-sucessfull {
+  text-align: center;
+  color:#c12529;
+  font-weight: 900;
+  font-size: 2.0rem;
+  margin-top: 2.5%;
+  text-shadow: black -0.5px -0.5px 0.2em;
+}
+
+.body-sucessfull {
+  font-size: 1.5rem;
+  color: #000000;
 }
 
 .button {

@@ -32,6 +32,16 @@
   padding: 10px 30px;
 }
 
+.card-register-succesfull{
+  margin-top: 15%;
+  margin-bottom: 20%;
+  margin-left: 27%;
+  margin-right: 27%;
+  width: 50%;
+  padding: auto;
+}
+
+  
 @media (min-width: 1500px) {
   .cart-title {
     border-radius: 65px;

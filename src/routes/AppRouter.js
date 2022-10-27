@@ -4,6 +4,7 @@ import Login from './../views/Login'
 import Register from './../views/Register'
 import Resources from './../views/Resources'
 import PageNotFound from '../views/PageNotFound'
+import SuccesfullRegister from '../views/SuccesfullRegisterView'
 
 export const AppRouter = () => {
   return (
@@ -29,6 +30,10 @@ export const AppRouter = () => {
         <Route
           path="*"
           element={<PageNotFound />}
+        />
+        <Route
+          path="/SuccesfullRegister"
+          element={<SuccesfullRegister />}
         />
       </Routes>
     </BrowserRouter>
