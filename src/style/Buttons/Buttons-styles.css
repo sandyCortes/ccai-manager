@@ -29,6 +29,7 @@
   margin: 15px 0;
 
 }
+
 .button-register:hover {
   color: #ffffff !important;
 }
@@ -36,4 +37,28 @@
 .button-register:focus {
   outline: none;
   color: #ffffff !important;
+}
+
+.button-tables {
+  outline: none;
+  border: 1.5px solid #000000;
+  background-color: #ffffff;
+  color: #646463;
+  font-weight: bold;
+  font-size: 0.7rem;
+  padding: 20px;
+  width: 150px;
+  max-width: 150px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.delete-events:hover {
+  border: 1.5px solid #000000;
+  outline: none;
+}
+
+.delete-events:focus {
+  border: 1.5px solid #000000;
+  outline: none;
 }

@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from './../views/Home'
 import Login from './../views/Login'
 import Register from './../views/Register'
+import Resources from './../views/Resources'
 import PageNotFound from '../views/PageNotFound'
 
 export const AppRouter = () => {
@@ -19,6 +20,10 @@ export const AppRouter = () => {
         <Route
           path="/register"
           element={<Register />}
+        />
+        <Route
+          path="/resources"
+          element={<Resources />}
         />
         {/* 👇️ only match this when no other routes match */}
         <Route
