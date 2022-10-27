@@ -19,11 +19,17 @@
 }
 
 .cart-title {
+  background-color: #ffffff;
+  border-radius: 50px;
+  font-size: 1.7rem;
   text-transform: uppercase;
-  min-height: auto;
-  width: 50%;
+  border: 1.5px solid #000000;
+  padding: 0.5rem;
+  font-weight: bold;
+  width: fit-content;
   margin: auto;
-  font-weight: 900;
+  margin-top: 10px;
+  padding: 10px 30px;
 }
 
 .card-register-succesfull{
@@ -36,6 +42,14 @@
 }
 
   
+@media (min-width: 1500px) {
+  .cart-title {
+    border-radius: 65px;
+  }
+  .cart-title {
+    font-size: 2.2rem;
+  }
+} 
 
   
   
