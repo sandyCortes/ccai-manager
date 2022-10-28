@@ -8,18 +8,22 @@
 }
 
 .tabs ul li {
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 3px solid #0000;
 }
 
 .tabs ul .is-active {
-  border-bottom: 3px solid rgba(0, 0, 0, .3);
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+
+.tabs ul .is-active a {
+  border-bottom: #ffffff;
 }
 
 .tabs ul li a {
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: bold;
   text-align: left;
-  color: #ffffff !important;
+  color: #000 !important;
   text-decoration: none;
 }
 
