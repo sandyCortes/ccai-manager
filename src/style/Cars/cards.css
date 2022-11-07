@@ -41,6 +41,17 @@
   padding: auto;
 }
 
+.card-proyects{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 60%;
+  padding: auto;
+}
+
+
+
   
 @media (min-width: 1500px) {
   .cart-title {
