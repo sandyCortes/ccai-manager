@@ -64,3 +64,11 @@
   border: 1.5px solid #000000;
   outline: none;
 }
+
+.aling-right {
+  float: right;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
