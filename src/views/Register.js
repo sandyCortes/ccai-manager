@@ -4,7 +4,6 @@ import { useNavigate  } from 'react-router-dom'
 import { CardComponent } from './../components/ui/Cards/CardComponent'
 import { InputLabel } from './../components/ui/Inputs/InputLabel'
 import { HeaderComponent } from './../components/ui/Header/HeaderComponent'
-import { ButtonComponent } from './../components/ui/Buttons/PrimaryButton'
 
 
 const Register = () => {

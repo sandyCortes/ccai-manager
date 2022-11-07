@@ -40,6 +40,10 @@ export const AppRouter = () => {
           path="/SuccesfullRegister"
           element={<SuccesfullRegister />}
         />
+        <Route
+          path="/proyects"
+          element={<Proyects />}
+        />
       </Routes>
     </BrowserRouter>
   )
