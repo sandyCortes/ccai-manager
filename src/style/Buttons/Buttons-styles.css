@@ -47,11 +47,13 @@
   font-weight: bold;
   font-size: 0.7rem;
   padding: 20px;
+  margin: 10px;
   width: 150px;
   max-width: 150px;
-  justify-content: space-between;
+  justify-content: right;
   border-radius: 10px;
 }
+
 
 .delete-events:hover {
   border: 1.5px solid #000000;

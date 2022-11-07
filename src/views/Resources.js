@@ -16,8 +16,8 @@ const Resources = () => {
         </div>
         <div className="column is-12 columns">
           <div className="column is-12">
-            <ButtonIcon title="Agregar" icon="plus-circle " />
-            <ButtonIcon title="Generar reportes" icon="file-download-outline" />
+            <ButtonIcon  title="Agregar" icon="plus-circle " />
+            <ButtonIcon  title="Generar reportes" icon="file-download-outline" />
           </div>
           <div className="column is-12">
             <TableComponent />

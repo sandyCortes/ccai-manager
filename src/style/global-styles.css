@@ -8,6 +8,7 @@
 @import url('./Buttons/all-buttons.css');
 
 @import url('./Tabs/tabs-component.css');
+@import url('./Table/table.css');
 
 @font-face {
   font-family: 'Poppins';
