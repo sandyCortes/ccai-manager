@@ -97,6 +97,6 @@ const Proyects = () => {
             </div>
         </div>
 
-        )
+    )
 }
 export default Proyects
