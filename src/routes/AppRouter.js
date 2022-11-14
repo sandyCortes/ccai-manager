@@ -8,6 +8,8 @@ import Resources from './../views/Resources'
 import PageNotFound from '../views/PageNotFound'
 import ProyectDetail from './../views/ProyectDetail'
 import SuccesfullRegister from '../views/SuccesfullRegisterView'
+import Calendar from "../views/Calendar"
+
 
 export const AppRouter = () => {
   return (
@@ -53,6 +55,10 @@ export const AppRouter = () => {
         <Route
           path="/materials"
           element={<Materials />}
+        />
+        <Route
+          path="/calendar"
+          element={<Calendar />}
         />
       </Routes>
     </BrowserRouter>
