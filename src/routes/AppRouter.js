@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from './../views/Home'
 import Login from './../views/Login'
+import Proyects from '../views/Proyects'
+import Materials from '../views/Materials'
 import Register from './../views/Register'
 import Resources from './../views/Resources'
 import PageNotFound from '../views/PageNotFound'
-import Proyects from '../views/Proyects'
 import SuccesfullRegister from '../views/SuccesfullRegisterView'
 
 export const AppRouter = () => {
@@ -39,6 +40,10 @@ export const AppRouter = () => {
         <Route
           path="/proyects"
           element={<Proyects />}
+        />
+        <Route
+          path="/materials"
+          element={<Materials />}
         />
       </Routes>
     </BrowserRouter>

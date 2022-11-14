@@ -7,7 +7,7 @@ import { ButtonIcon } from './../components/ui/Buttons/ButtonIcon'
 const Resources = () => {
   return (
     <div className='section'>
-      <div className="columns">
+      <div className="columns" style={{ width: '100%' }}>
         <div className="column is-12">
           <HeaderComponent title="Recursos" />
         </div>
@@ -16,8 +16,16 @@ const Resources = () => {
         </div>
         <div className="column is-12 columns">
           <div className="column is-12">
-            <ButtonIcon title="Agregar" icon="plus-circle " />
-            <ButtonIcon title="Generar reportes" icon="file-download-outline" />
+            <ButtonIcon
+              title="Generar reportes"
+              icon="file-download-outline"
+              extraClass="aling-right"
+            />
+            <ButtonIcon
+              title="Agregar"
+              icon="plus-circle"
+              extraClass="aling-right margin-right"
+            />
           </div>
           <div className="column is-12">
             <TableComponent />
