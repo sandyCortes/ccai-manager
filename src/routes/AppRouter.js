@@ -6,6 +6,7 @@ import Materials from '../views/Materials'
 import Register from './../views/Register'
 import Resources from './../views/Resources'
 import PageNotFound from '../views/PageNotFound'
+import ProyectDetail from './../views/ProyectDetail'
 import SuccesfullRegister from '../views/SuccesfullRegisterView'
 
 export const AppRouter = () => {
@@ -31,6 +32,10 @@ export const AppRouter = () => {
         <Route
           path="/proyects"
           element={<Proyects />}
+        />
+        <Route
+          path="/proyect-detail"
+          element={<ProyectDetail />}
         />
         {/* 👇️ only match this when no other routes match */}
         <Route
