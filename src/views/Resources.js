@@ -3,6 +3,7 @@ import { HeaderComponent } from './../components/ui/Header/HeaderComponent'
 import { TabsComponent } from './../components/commond/Tabs'
 import { TableComponent } from './../components/commond/Table'
 import { ButtonIcon } from './../components/ui/Buttons/ButtonIcon'
+import { CardComponent } from './../components/ui/Cards/CardComponent'
 
 const Resources = () => {
   return (
@@ -14,8 +15,8 @@ const Resources = () => {
         <div className="column is-12">
           <TabsComponent />
         </div>
-        <div className="column is-12 columns">
-          <div className="column is-12">
+        <div className="column is-12">
+          <div>
             <ButtonIcon
               title="Generar reportes"
               icon="file-download-outline"
@@ -27,9 +28,11 @@ const Resources = () => {
               extraClass="aling-right margin-right"
             />
           </div>
-          <div className="column is-12">
+        </div>
+        <div className="column is-12">
+          <CardComponent classExtra="opacity-card card-proyects">
             <TableComponent />
-          </div>
+          </CardComponent>
         </div>
       </div>
     </div>

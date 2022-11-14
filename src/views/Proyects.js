@@ -18,7 +18,7 @@ const Proyects = () => {
                     <ButtonIcon
                         title="Agregar"
                         icon="plus-circle"
-                        extraClass="aling-right margin-right button-tables-agregar"
+                        extraClass="aling-right margin-right"
                     />
                 </div>
                 <div className="column is-12">

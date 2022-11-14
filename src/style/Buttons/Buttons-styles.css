@@ -16,7 +16,8 @@
 .button-tese:focus {
   color: #ffffff !important;
 }
-.button-register{
+
+.button-register {
   background-color: transparent;
   color:#ffffff;
   font-weight: 900;
@@ -50,27 +51,9 @@
   margin: 10px;
   width: 150px;
   max-width: 150px;
-  justify-content: right;
+  justify-content: space-between;
   border-radius: 10px;
 }
-.button-tables-agregar {
-  outline: none;
-  border: 1.5px solid #000000;
-  background-color: #ffffff;
-  color: #646463;
-  font-weight: bold;
-  font-size: 0.7rem;
-  padding: 20px;
-  padding-right: 80px;
-  padding-left: 60px;
-  margin: 10px;
-  width: 150px;
-  max-width: 150px;
-  justify-content: center;
-  border-radius: 10px;
-}
-
-
 
 .delete-events:hover {
   border: 1.5px solid #000000;
