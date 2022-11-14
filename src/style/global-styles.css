@@ -10,6 +10,7 @@
 @import url('./Tabs/tabs-component.css');
 @import url('./Table/table.css');
 @import url('./Search/search.css');
+@import url('./Tabs/tabs-component.css');
 
 @font-face {
   font-family: 'Poppins';

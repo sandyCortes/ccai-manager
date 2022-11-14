@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const ButtonIcon = (props) => {
-  const { title, icon, extraClass } = props
+    const { title, icon, extraClass } = props
 
   return (
     <>

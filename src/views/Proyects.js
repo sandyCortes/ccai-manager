@@ -13,7 +13,7 @@ const Proyects = () => {
                     <ButtonIcon 
                         title="Generar reportes"
                         icon="file-download-outline"
-                        extraClass="aling-right margin-right button-tables-agregar"
+                        extraClass="aling-right"
                     />
                     <ButtonIcon
                         title="Agregar"
@@ -22,7 +22,7 @@ const Proyects = () => {
                     />
                 </div>
                 <div className="column is-12">
-                <CardComponent classExtra="opacity-card card-proyects">
+                <CardComponent classExtra="opacity-card card-proyects">             
                         <div>
                             <table className="table table-proyect is-fullwidth is-striped">
                                 <thead>

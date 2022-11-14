@@ -28,6 +28,10 @@ export const AppRouter = () => {
           path="/resources"
           element={<Resources />}
         />
+        <Route
+          path="/proyects"
+          element={<Proyects />}
+        />
         {/* 👇️ only match this when no other routes match */}
         <Route
           path="*"
