@@ -14,7 +14,7 @@ const ProyectDetail = () => {
           <CardComponent classExtra="opacity-card card-proyects">
 
             {/* Collapsive */}
-
+            Hola
           </CardComponent>
         </div>
       </div>
