@@ -1,0 +1,7 @@
+.modal-users{
+    text-align: left;
+    font-family: 'Poppins';
+    position: relative;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(43, 129, 146, 0.1);
+  }

@@ -12,6 +12,11 @@
 @import url('./Search/search.css');
 @import url('./Tabs/tabs-component.css');
 
+@import url('./Title/title.css');
+
+@import url('./Modals/modals.css');
+
+
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
