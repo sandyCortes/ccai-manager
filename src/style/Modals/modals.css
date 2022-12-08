@@ -1,7 +1,15 @@
 .modal-users{
     text-align: left;
     font-family: 'Poppins';
-    position: relative;
+    position: absolute;
     border-radius: 1.5rem;
-    border: 1px solid rgb(43, 129, 146, 0.1);
+    border: 1px solid rgb(43, 129, 146, 0.1);    
   }
+.modal-background.modal-users {
+    background-color: rgba(26, 83, 94, 0.8);
+}
+
+.modal-card-head.modal-users {
+    background-color: rgb(43, 129, 146, 0.3);
+}
+  

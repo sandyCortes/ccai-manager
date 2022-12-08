@@ -5,15 +5,16 @@ import { CardComponent } from './../components/ui/Cards/CardComponent'
 import { ModalComponent } from './../components/ui/Modal/ModalComponent';
 
 const Users = () => {
-    const [showModal, setShowModal] = useState( true);
+    const [showModal, setShowModal] = useState(null);
     return (
         <div className='section'>
+    
             <HeaderComponent title='Usuarios Registrados'/>
-            {showModal ? <ModalComponent 
-                classExtra = "modal-users" 
-                backgroundColor="rgb(43, 129, 146, 0.1)" 
-                title = "Usuarios Registrados">        
-            </ModalComponent> : <></>}
+            
+            { showModal ? 
+                <ModalComponent classExtra = "modal-users" title = "Información de usuario" isActive = "false" >
+                </ModalComponent> : <></>
+            }            
             <CardComponent classExtra="opacity-card card-users">
            
                 <table className="table table-users is-fullwidth is-striped">
@@ -38,7 +39,7 @@ const Users = () => {
                             <td title="Carrera">Carrera.</td>
                             <td title="Servicio a prestar">Servicio a prestar.</td>
                             <td title="Periodo">Periodo.</td>
-                            <td><i className='mdi mdi-eye icon-blue'></i></td>
+                            <td><i className='mdi mdi-eye icon-blue' onClick={()=>setShowModal(!showModal)}></i></td>
                             <td></td>
                         </tr>
                     </tbody>
@@ -51,9 +52,7 @@ const Users = () => {
                             <td title="Carrera">Carrera.</td>
                             <td title="Servicio a prestar">Servicio a prestar.</td>
                             <td title="Periodo">Periodo.</td>
-                            <td>
-                                <i className='mdi mdi-eye icon-blue' onClick={()=>setShowModal(!showModal)}></i>
-                            </td>
+                            <td><i className='mdi mdi-eye icon-blue' onClick={()=>setShowModal(!showModal)}></i></td>
                             <td></td>
                         </tr>
                     </tbody>
@@ -66,7 +65,7 @@ const Users = () => {
                             <td title="Carrera">Carrera.</td>
                             <td title="Servicio a prestar">Servicio a prestar.</td>
                             <td title="Periodo">Periodo.</td>
-                            <td><i className='mdi mdi-eye icon-blue'></i></td>
+                            <td><i className='mdi mdi-eye icon-blue' onClick={()=>setShowModal(!showModal)}></i></td>
                             <td></td>
                         </tr>
                     </tbody>
@@ -80,7 +79,7 @@ const Users = () => {
                             <td title="Carrera">Carrera.</td>
                             <td title="Servicio a prestar">Servicio a prestar.</td>
                             <td title="Periodo">Periodo.</td>
-                            <td><i className='mdi mdi-eye icon-blue'></i></td>
+                            <td><i className='mdi mdi-eye icon-blue' onClick={()=>setShowModal(!showModal)}></i></td>
                             <td></td>
                         </tr>
                     </tbody>
