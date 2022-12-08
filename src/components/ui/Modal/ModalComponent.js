@@ -1,37 +1,27 @@
 import React from 'react';
 
 export const ModalComponent = (props) => {    
-    const { children, classExtra, title, isActive} = props
+    const { children, classExtra, title, isActive, hdlOnclick} = props
     return(
-        <div className={`modal ${isActive ? 'is-active':''} ${classExtra}`} >
+        <div className={`modal ${isActive ? 'is-active':''}`} >
             {children}
-            <div className={`modal-background ${classExtra}`} >{children}</div>
-            
-            <div className="modal-card">
-                <header className="modal-card-head" >
-                    <p className="modal-card-title title-sucessfull">{title}</p>
-                    <button className="delete" aria-label="close" > </button>
+            <div className="modal-background" ></div>
+            <div className={`modal-card ${classExtra}`}>
+                <section className={`modal-card-body ${classExtra}`}>
+                    <p className="modal-card-title title-modal">{title}</p>
+                    <button className="delete btnModalClose" aria-label="close" onClick = {hdlOnclick}> </button>
+                    <div>
+                        <p>Nombre:</p>
+                        <p>Matricula:</p>
+                        <p>Calificación:</p>
+                        <p>Carrera:</p>
+                        <p>Periodo:</p>
+                    </div>
                     
-                </header>
-
-                <section className="modal-card-body" >
-                    <p>Nombre:</p>
-                    <p>Matricula:</p>
-                    <p>Calificación:</p>
-                    <p>Carrera:</p>
-                    <p>Periodo:</p>
+                    <button className="button is-rounded is-medium btnModalAceptar">Aceptar</button>
+                    <button className="button is-rounded is-medium btnModalRechazar">Rechazar</button>
                 </section>
-
-                <footer className="modal-card-foot">
-                    <button  
-                        className="button is-rounded is-medium is-success"
-                    
-                    >
-                        Aceptar
-                    </button>
-                    <button className="button is-rounded is-medium is-danger">Rechazar</button>
-                </footer>
-
+                
             </div>
         </div>
     )
